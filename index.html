@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contratos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Contratos para Freelancers</h1>
+        
+        <form id="contractForm">
+            <label for="clientName">Nombre del Cliente:</label>
+            <input type="text" id="clientName" required>
+            
+            <label for="service">Servicio Ofrecido:</label>
+            <input type="text" id="service" required>
+            
+            <label for="price">Precio:</label>
+            <input type="number" id="price" required>
+            
+            <label for="date">Fecha:</label>
+            <input type="date" id="date" required>
+            
+            <label for="template">Selecciona una plantilla:</label>
+            <select id="template">
+                <option value="basico">Básico</option>
+                <option value="premium">Premium</option>
+            </select>
+            
+            <button type="submit">Generar Contrato</button>
+        </form>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
